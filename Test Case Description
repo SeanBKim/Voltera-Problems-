@@ -1,0 +1,24 @@
+/*
+Test Case Description
+	The test cases for the Polygon class are under the assumption that the order
+	of the points follow a counter-clockwise order, where the polygons are 
+	formed by connecting the dots in a counter-clockwise fashion. 
+	
+	To test the Polygon class, a regular square with the points (0,0), (1,0), 
+	(1,1), (0,1) would be used, with a point (1,2) being placed outside of the 
+	square. The desired output for this polygon would be the points being 
+	outputted to the console in counter-clockwise order, with the point given 
+	shown to be outside of the square. 
+	
+	Another test case for the polygon is with an irregular polygon, with the 
+	points (0,0), (1,0), (4,1), (3,2), (1,-1) would be used, with a point (1,1)
+	being placed inside of the polygon. The desired output for this polygon 
+	woudl be the poitns being outputted to the console in counter-clockwise 
+	order, with the point given shown to be inside of the polygon. 
+	
+	To test the RegularOctagon class, a regular octagon is used with points 
+	such as (0,0), (1,0), with an n value of 2. The desired output for the 
+	octagon should be its points being outputted in a counter-clockwise fashion 
+	and the appropriate points being affected by the multiplier of 2, such as 
+	the two points provided becoming (0,0), (2,0). 
+*/ 
